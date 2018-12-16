@@ -2015,7 +2015,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c2a406;
+  background: #74d449;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3322,4 +3322,8 @@ pre {
   border-left: 3px solid #ff1700;
   background-color: #f9f9f9;
   list-style: none;
+}
+.links-of-blogroll-item {
+  width: 50%;
+  float: left;
 }
