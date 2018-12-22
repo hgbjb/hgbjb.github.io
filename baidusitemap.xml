@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yoursite.com/posts/12f5d662.html</loc>
+    <lastmod>2018-12-22T12:46:12.739Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/posts/fad1abf8.html</loc>
+    <lastmod>2018-12-22T12:46:09.294Z</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/posts/f102b45c.html</loc>
     <lastmod>2018-12-22T07:25:21.900Z</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/posts/12f5d662.html</loc>
-    <lastmod>2018-12-22T06:26:41.431Z</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/posts/3e913e9b.html</loc>
     <lastmod>2018-12-22T05:31:21.589Z</lastmod>
