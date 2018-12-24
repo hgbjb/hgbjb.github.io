@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yoursite.com/posts/b710740a.html</loc>
+    <lastmod>2018-12-24T09:24:12.379Z</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/posts/bbee0ba2.html</loc>
     <lastmod>2018-12-24T09:17:55.392Z</lastmod>
   </url>  <url>
@@ -12,9 +15,6 @@
   </url>  <url>
     <loc>http://yoursite.com/posts/e566ff5d.html</loc>
     <lastmod>2018-12-23T08:20:05.260Z</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/posts/b710740a.html</loc>
-    <lastmod>2018-12-23T07:27:04.750Z</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/posts/3e913e9b.html</loc>
     <lastmod>2018-12-22T18:29:58.979Z</lastmod>
