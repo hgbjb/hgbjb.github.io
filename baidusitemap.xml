@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yoursite.com/posts/9882b1bb.html</loc>
+    <lastmod>2018-12-28T10:46:02.138Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/posts/6105e9db.html</loc>
+    <lastmod>2018-12-28T10:37:33.426Z</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/posts/b8a48814.html</loc>
     <lastmod>2018-12-28T09:26:19.274Z</lastmod>
   </url>  <url>
@@ -27,9 +33,6 @@
   </url>  <url>
     <loc>http://yoursite.com/posts/ce75d12d.html</loc>
     <lastmod>2018-12-27T19:05:48.035Z</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/posts/6105e9db.html</loc>
-    <lastmod>2018-12-27T19:05:36.157Z</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/index.html</loc>
     <lastmod>2018-12-27T19:05:23.342Z</lastmod>
