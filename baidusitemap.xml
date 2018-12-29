@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yoursite.com/posts/5dccc50d.html</loc>
+    <lastmod>2018-12-29T12:58:16.094Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/posts/b710740a.html</loc>
+    <lastmod>2018-12-29T07:29:42.053Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/posts/9c409c23.html</loc>
+    <lastmod>2018-12-28T13:47:29.597Z</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/posts/9882b1bb.html</loc>
     <lastmod>2018-12-28T10:46:40.255Z</lastmod>
   </url>  <url>
@@ -100,9 +109,6 @@
     <loc>http://yoursite.com/posts/6019d3d0.html</loc>
     <lastmod>2018-12-24T12:08:33.221Z</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/posts/b710740a.html</loc>
-    <lastmod>2018-12-24T10:18:00.252Z</lastmod>
-  </url>  <url>
     <loc>http://yoursite.com/posts/fad1abf8.html</loc>
     <lastmod>2018-12-24T08:08:51.302Z</lastmod>
   </url>  <url>
@@ -135,9 +141,6 @@
   </url>  <url>
     <loc>http://yoursite.com/posts/4fc44e36.html</loc>
     <lastmod>2018-12-21T14:27:02.952Z</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/posts/9c409c23.html</loc>
-    <lastmod>2018-12-21T14:27:02.949Z</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/posts/19f45b9b.html</loc>
     <lastmod>2018-12-21T14:27:02.946Z</lastmod>
