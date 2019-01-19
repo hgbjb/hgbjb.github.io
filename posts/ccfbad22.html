@@ -600,7 +600,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1+r4qwtVYJLfGsNGA0epQjkDHtTnDlpbvOHt9eFXTXgEnrstXmISfbqSlGdqWSReSeOfQo35pkk8nXWEuO8ybG45RKQq0nnKBqWhbnps73YV4Etkoc743Z1cFk6v6gpfTo5/3B6SHAbDjBW+aW+LnKCCLIvjrU8JTXqW/gm0hGY13fijSJwP55rY4xSOqHx6stuN4W56WCNM5B9ZGho7lMiOHK3nHyV48EByQRiVLf8S9WkdC/CSk40lb4OJrddcG6rWDH6JeKBbG3Eb8I8EIgNrF4wAklIuY8dofuibJebdNj1VT+0Lw/bHdDyxrD63hxa6g1FSn1jahzo1s/g6c2evjeGfiqeSOcAptO/VpmR/ILW7SsavB6rdCgcsZSk7ssy1UJo85wNNP0u1iwHQdD3jNdkU2k9xMgqewYkEuC5xSzKmd0IyRLx9qeD5TK0bBWpYRs8lziOyYO4agwYOfubKWwwepMgd+6iHrYa4q8zoUZ5pgdCJZmAxmuCuXoEgepwHQM1t8WXf6rApeC78ZigPEyduXikaGjVZ+yZOvMuaFn+MD2/3aEeEUATXIDDTc+ST4Krwq6cq5GpgxQOSywzcp5j3NguClK3wD7rzF5rEo6mBNdmXM/QVEySdcrNJ3LCY0lqSwPa0QDCfphV4Pq4IHCM2fgLWiMgnWzpzEZqjjUjPLWC6mYhmuVeXyf/twS8eeXKwQQZC4FHv6exQOKt5TkGQ2L16Sm1mFqhmB0yLmWCtgLn+sDE7rXP3dezMJ1Tqtf795Fvi7i13YM0K7+fScRmTjn/3FQr1I7n51CErXV0b7cyh09H6gYVOgp8pUiWXxcK7b/f77qD/lYZrrsQRYeAfIqJdubjuUpts8qEQK9A3B8FlVeXBpV9Ew0tbyDHKYVuH9o0DIHqNojgDrPqAkx/HzfptfBYXnaYPXQ5L4LAzzQxTqlsgwEJDHCJXob6Q45DRA9VYp2ftpUe6ZHaJp8lOdJuecM=</div>
+<div id="enc_content" style="display:none">U2FsdGVkX1+XyV1Fr/Swq43A6QKy1hEE7OiEg5Q/9sRV0uceL3ZKGZLGaqZrPImlI2kcqyssVAUitnEZwljBOIK3tb0z5rX/BsHyyxn/lli7n0FmJE7NvIUWPJGe9hPt8CNA1fvQHb8DcKP7mujmUOYwDS0nJYEQVc0BNnhMA9+B4Z8VHSwMg+yHks7k55RMLK5csWJc7/LuuRzw2jpPHOGdyEe1E9jqNzT9SLkI8Ymj0l1y9nRYdBVpw3BRgXl1fUZ762g0c+YAXTkefxJkJIYslpbWWBYOT35tokCMHROHX47qaCCFQtVtjRwkyns60umR1VFLGbtrgXLeeU7xvTpwLEldpLVBPtzphHuvjojyWIb7rQyVhjGjMbhcQ2Wo4MWXLl+qFqD3upHwq2RR5///cSJRC6iycYouUHCD8uq8tk2/VNADAqCQfrTplHFJbIHBDr6ca5ejJPziv5MtB6j3zLRIgymj5tbwCtehkic7AkvdGEEmSe+UkRB2MruyJA0LvtXXNhIkTrLIGqS1HXioRxGe/9GnkwsHLbgXst19NAHyBJmIAvtATUZu+mQnXhXf9z66AbSHNriVix3UsWS5yFPDQ6eE9Wkse4E+EsWlBHmqF3+H/Opsphgt9G6dLz68vnBLIYvX8B1f8HdTlPmGkNQrngClpy0dlptbUMGXstalobRM3dZnxBcHyIZ8f14n2YY3kfThk42v+KQlkV0JH0lEkoiyeuRGs6aypNedGzWZZDDEdgsVZFuvSEh02RoP9iUnRvpUfcAanuNR7pL1Ex62bqfG/aoCnu1pI8AfhT9li/lqOZv8fzFuKFvxkjK3PAZoytrxjiJXVyyuI1flODqzQT7PnaCRP0xk9zRncg4aLSE0YNXAkB704hpyjy5ktQifXV25jf/BFB9b1J0izV/9pjeeQz/hr+pLK++8H2iiESwjRL6V6MjpknQl+Dgt/vvs6IT4tzrtehm4cIVAUI75LsGxvxt6Sg5RSIk=</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -1198,7 +1198,7 @@ doDecrypt(passwd, onError);
 
   <div class="theme-info">
     <div class="powered-by"></div>
-    <span class="post-count">博客全站共107.8k字</span>
+    <span class="post-count">博客全站共107.9k字</span>
     </div>
   </div>
 
