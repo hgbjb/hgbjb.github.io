@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/sp-push/sp-push-manifest.json</loc>
+    <loc>http://yoursite.com/sp-push-manifest.json</loc>
     
     <lastmod>2019-01-18T23:22:08.000Z</lastmod>
     
