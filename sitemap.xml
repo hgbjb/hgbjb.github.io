@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/sp-push/sp-push-manifest.json</loc>
+    
+    <lastmod>2019-01-18T23:22:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/posts/d8bf51c2.html</loc>
     
-    <lastmod>2019-01-18T11:29:07.123Z</lastmod>
+    <lastmod>2019-01-18T11:29:26.229Z</lastmod>
     
   </url>
   
