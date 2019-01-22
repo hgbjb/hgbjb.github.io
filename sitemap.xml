@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/posts/acae0077.html</loc>
+    
+    <lastmod>2019-01-22T12:29:00.946Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/e1f7a970.html</loc>
+    
+    <lastmod>2019-01-22T12:23:07.421Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/posts/d595db07.html</loc>
     
-    <lastmod>2019-01-21T11:19:56.364Z</lastmod>
+    <lastmod>2019-01-21T11:20:11.218Z</lastmod>
     
   </url>
   
@@ -82,13 +96,6 @@
     <loc>http://yoursite.com/posts/c6d7d6c9.html</loc>
     
     <lastmod>2019-01-17T14:52:47.315Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/e1f7a970.html</loc>
-    
-    <lastmod>2019-01-16T04:22:48.174Z</lastmod>
     
   </url>
   
