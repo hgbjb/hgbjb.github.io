@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yoursite.com/posts/34ef5a39.html</loc>
+    <lastmod>2019-01-27T14:44:30.680Z</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/posts/f4f0c034.html</loc>
-    <lastmod>2019-01-26T12:26:25.933Z</lastmod>
+    <lastmod>2019-01-26T12:26:49.199Z</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/posts/d472c44d.html</loc>
     <lastmod>2019-01-25T07:49:47.407Z</lastmod>
