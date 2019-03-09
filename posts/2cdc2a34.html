@@ -114,25 +114,25 @@
   daovoice('update');
   </script>
 
-  <meta name="description" content="百丈之台，其初则一石耳，由是而两石焉，由是而三石，四石以致于切切石焉。进建亦然。旧日记一事，嫡悟一理，积暂而成教。~~作者：毛泽东">
+  <meta name="description" content="function doDecrypt (pwd, onError) { 	console.log(&apos;in doDecrypt&apos;); 	const txt = document.getElementById(&apos;enc_content&apos;).innerHTML; 	let plantext; 	try { 		const bytes = CryptoJS.AES.decrypt(txt, pwd);">
 <meta name="keywords" content="怀谷日记">
 <meta property="og:type" content="article">
-<meta property="og:title" content="怀谷日记">
-<meta property="og:url" content="http://yoursite.com/posts/7ac991d8.html">
+<meta property="og:title" content="奔波的一天">
+<meta property="og:url" content="http://yoursite.com/posts/2cdc2a34.html">
 <meta property="og:site_name" content="私人笔记本">
-<meta property="og:description" content="百丈之台，其初则一石耳，由是而两石焉，由是而三石，四石以致于切切石焉。进建亦然。旧日记一事，嫡悟一理，积暂而成教。~~作者：毛泽东">
+<meta property="og:description" content="function doDecrypt (pwd, onError) { 	console.log(&apos;in doDecrypt&apos;); 	const txt = document.getElementById(&apos;enc_content&apos;).innerHTML; 	let plantext; 	try { 		const bytes = CryptoJS.AES.decrypt(txt, pwd);">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-21T14:27:02.926Z">
+<meta property="og:updated_time" content="2019-03-09T11:51:37.717Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="怀谷日记">
-<meta name="twitter:description" content="百丈之台，其初则一石耳，由是而两石焉，由是而三石，四石以致于切切石焉。进建亦然。旧日记一事，嫡悟一理，积暂而成教。~~作者：毛泽东">
+<meta name="twitter:title" content="奔波的一天">
+<meta name="twitter:description" content="function doDecrypt (pwd, onError) { 	console.log(&apos;in doDecrypt&apos;); 	const txt = document.getElementById(&apos;enc_content&apos;).innerHTML; 	let plantext; 	try { 		const bytes = CryptoJS.AES.decrypt(txt, pwd);">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/posts/7ac991d8.html">
+  <link rel="canonical" href="http://yoursite.com/posts/2cdc2a34.html">
 
 
 
@@ -142,7 +142,7 @@
   };
 </script>
 
-  <title>怀谷日记 | 私人笔记本</title>
+  <title>奔波的一天 | 私人笔记本</title>
   
 
 
@@ -467,7 +467,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/posts/7ac991d8.html">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/posts/2cdc2a34.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -484,7 +484,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">怀谷日记
+          <h1 class="post-title" itemprop="name headline">奔波的一天
 
               
             
@@ -511,24 +511,12 @@
                 
               
 
-              <time title="创建时间：2018-12-13 23:42:06" itemprop="dateCreated datePublished" datetime="2018-12-13T23:42:06+08:00">2018-12-13</time>
+              <time title="创建时间：2019-03-09 19:48:11 / 修改时间：19:51:37" itemprop="dateCreated datePublished" datetime="2019-03-09T19:48:11+08:00">2019-03-09</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-12-21 22:27:02" itemprop="dateModified" datetime="2018-12-21T22:27:02+08:00">2018-12-21</time>
               
             
           </span>
@@ -586,8 +574,46 @@
       
 
       
-        <p>百丈之台，其初则一石耳，由是而两石焉，由是而三石，四石以致于切切石焉。进建亦然。旧日记一事，嫡悟一理，积暂而成教。~~作者：毛泽东</p>
-
+        <script src="/js/crypto-js.js"></script>
+<script>
+function doDecrypt (pwd, onError) {
+	console.log('in doDecrypt');
+	const txt = document.getElementById('enc_content').innerHTML;
+	let plantext;
+	try {
+		const bytes = CryptoJS.AES.decrypt(txt, pwd);
+		var plaintext = bytes.toString(CryptoJS.enc.Utf8);
+	} catch(err) {
+		if(onError) {
+			onError(err);
+		}
+		return;
+	}
+	document.getElementById('enc_content').innerHTML = plaintext;
+	document.getElementById('enc_content').style.display = 'block';
+	document.getElementById('enc_passwd').style.display = 'none';
+	if(typeof MathJax !== 'undefined') {
+		MathJax.Hub.Queue(
+			['resetEquationNumbers', MathJax.InputJax.TeX],
+			['PreProcess', MathJax.Hub],
+			['Reprocess', MathJax.Hub]
+		);
+	}
+}
+</script>
+<div id="enc_content" style="display:none">U2FsdGVkX1+vl8Dtkj54dT6tcRGpQAMHz6K/Ib8ATjj1/iKWloYofCGmxEqEhpQYkeN4mzXU4Qetzcm1bGzKYe4d83zd9VAtnw15c8i6pTyCeAPaUItnLtFoyHrC+6VO0FN9LtYLyYw8z/QsBrfXzgTxkIvxfggo6OHjSCh6Pk7NsAZ8I+X9jYwIDwJGBXhULQ00CEEI8VaS5CXOQmzygkHH+GwFYwc9nlxD6FJTQ2pCZwm0Eej9mAZXVcsjiZ++3H6EzSzOYMZN2AGHDsJUMR2V/nv/LMXz8FgYEcwmbXng1bqlcH/Miq3F/y9IdJDhpUEOIzmS8KxMqgm9wvVsVapFFR5AzTGYrRzV8u0xnknTQahgJWFn/PdRjDeNZAQHX490rRhjcTFcjvmQMHPGbvS1NJXwr3DpUqSnc4nfMKXo+kxOgQR5USjkOA1HFNb7sr2Kl6Gh3yLuvRFSijC0nnVFzHT+zCQX05YLctGM6I8LCMZJBYvkx6uh5fADjX2nLh2eVgcSI2F4PYxUkzmV65wmkvi207IhCOkZo5ehp/fPPj9yAg+wLMKCqx8xTHNvaak9YSt44U7pAtP6AwLu16N1Y2vjNSS389mZeSdOjru86M22lO+UEI/VdEhOHqC7JMaVVyaoOjnuguNHtjG8dQ6V0orlESUuzyhiiy9gqwVrbsRpjivk6FOH6++KPWwaJKFWUFAK4B+mImK8UdBWj3Ixhxe+VZ7cCGIGpcf1zELqnEtWf2qLUXh/lNi5lKss</div>
+<div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
+<script>
+var onError = function(error) {
+	document.getElementById("enc_error").innerHTML = "password error!"
+};
+function decrypt() {
+var passwd = document.getElementById("enc_pwd_input").value;
+console.log(passwd);
+doDecrypt(passwd, onError);
+}
+</script>
+</div>
       
     </div>
 
@@ -720,7 +746,7 @@
             </li>
             <li class="post-copyright-link">
                 <strong>本文链接：</strong>
-                <a href="/posts/7ac991d8.html" title="怀谷日记">posts/7ac991d8.html</a>
+                <a href="/posts/2cdc2a34.html" title="奔波的一天">posts/2cdc2a34.html</a>
             </li>
             <li class="post-copyright-license">
                 <strong>版权： </strong>
@@ -737,8 +763,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/28991056.html" rel="next" title="3,创业者赚钱5个秘密法则">
-                <i class="fa fa-chevron-left"></i> 3,创业者赚钱5个秘密法则
+              <a href="/posts/530705af.html" rel="next" title="买药">
+                <i class="fa fa-chevron-left"></i> 买药
               </a>
             
           </div>
@@ -746,10 +772,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/posts/7307d3b3.html" rel="prev" title="4,宇宙智慧生生不息的赚钱自然规律">
-                4,宇宙智慧生生不息的赚钱自然规律 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -1334,7 +1356,7 @@
   
     <script>
       window.livereOptions = {
-        refer: 'posts/7ac991d8.html'
+        refer: 'posts/2cdc2a34.html'
       };
       (function(d, s) {
         var j, e = d.getElementsByTagName(s)[0];
